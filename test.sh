@@ -33,5 +33,4 @@ RVDMhjpEYtrCRS0ecOkseoJ7knNrKI98Dg==
 "
 echo "$TRUSTED_CERT" > /etc/ssl/certs/my-trusted-cert-2.pem
 /usr/bin/rehash_ca_certificates.sh
-systemctl restart containerd
 
