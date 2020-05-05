@@ -33,4 +33,5 @@ RVDMhjpEYtrCRS0ecOkseoJ7knNrKI98Dg==
 "
 echo "$TRUSTED_CERT" > /etc/ssl/certs/my-trusted-cert-2.pem
 /usr/bin/rehash_ca_certificates.sh
-curl -vv https://harbor.ingress.tkg.internal.hardt.io
+systemctl restart containerd
+
